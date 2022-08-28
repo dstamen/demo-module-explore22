@@ -9,6 +9,3 @@ $ModuleSettings
 
 New-ModuleManifest @ModuleSettings -Path './demo-module-explore22.psd1'
 Test-ModuleManifest -Path ./demo-module-explore22.psd1
-
-
-Publish-Module -Path . -NuGetApiKey 'oy2m4ekyyxomfflkygfqjkcfpehoevke5flmnediw3metm'
