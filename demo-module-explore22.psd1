@@ -12,13 +12,13 @@
 RootModule = './demo-module-explore22.psm1'
 
 # Version number of this module.
-ModuleVersion = '1.0.2'
+ModuleVersion = '1.0.4'
 
 # Supported PSEditions
 # CompatiblePSEditions = @()
 
 # ID used to uniquely identify this module
-GUID = '543b369a-f279-401b-826d-efc6b5692646'
+GUID = '9ee7deaf-5519-492e-a55c-4d74647c14ab'
 
 # Author of this module
 Author = 'David Stamen'
@@ -104,7 +104,7 @@ PrivateData = @{
         # ProjectUri = ''
 
         # A URL to an icon representing this module.
-        # IconUri = ''
+        IconUri = 'https://github.com/dstamen/demo-module-explore22/raw/main/logo.png'
 
         # ReleaseNotes of this module
         # ReleaseNotes = ''
