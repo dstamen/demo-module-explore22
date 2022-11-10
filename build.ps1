@@ -1,7 +1,7 @@
 #Varibales
 $ModuleSettings = @{
     RootModule = './demo-module-explore22.psm1'
-    ModuleVersion = '1.0.4'
+    ModuleVersion = '2.1.0'
     Author = 'David Stamen'
     Description  = 'This is a demo created for VMware Explore 2022'
     FunctionsToExport = "Get-VMClusterInfo"
@@ -15,5 +15,5 @@ New-ModuleManifest @ModuleSettings -Path './demo-module-explore22.psd1' -PassThr
 Test-ModuleManifest -Path ./demo-module-explore22.psd1
 
 #Publish Module
-$APIKey = ''
+$APIKey = 'oy2fsh5m3psdvin6kfhaw3sd4xqyjybe5ji73ztp2ns3ci'
 Publish-Module -Path . -NuGetApiKey $APIKey
